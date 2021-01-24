@@ -38,6 +38,10 @@ function validateFormSignUp(){
         alert("تکرار رمز عبور نباید خالی باشد!");
         return false;
     }
+    else if (Password != Password2){
+        alert("رمز عبور ها با هم یکسان نیستند! لطفا درست وارد نمایید!")
+        return false;
+    }
 }
 function validateFormForgetPassword(){
     var Email = document.forms["recovery"]["email"].value;
