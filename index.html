@@ -22,31 +22,10 @@
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/templatemo-digital-trend.css">
-     <script src="https://www.google.com/recaptcha/api.js"></script>
 
 </head>
 <body>
-      <script>
-   function onSubmit(token) {
-     document.getElementById("demo-form").submit();
-   }
- </script>
-<button class="g-recaptcha" 
-        data-sitekey="reCAPTCHA_site_key" 
-        data-callback='onSubmit' 
-        data-action='submit'>Submit</button>
-<script src="https://www.google.com/recaptcha/api.js?render=6LdhNjoaAAAAAJCBhl3eIfxz3wKQCAGFZVVkItxY"></script>
-   <script>
-      function onClick(e) {
-        e.preventDefault();
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6LdhNjoaAAAAADjXtWOvnMdV0TB3XdazFeTZPfvw', {action: 'submit'}).then(function(token) {
-              // Add your logic to submit to your backend server here.
-          });
-        });
-      }
-  </script>
-
+  
      <!-- MENU BAR -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
