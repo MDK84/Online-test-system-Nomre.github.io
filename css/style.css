@@ -61,10 +61,11 @@ Adding some fonts
 }
 body
 {
-   background-color: #FFFFFF;
-   color: #000000;
-   font-family: Arial;
-   font-size: 13px;
+	background-image: url("../images/BG1.png");
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Arial;
+    font-size: 13px;
 }
 label
 {
