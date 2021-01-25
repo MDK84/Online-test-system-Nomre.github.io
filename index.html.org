@@ -83,32 +83,40 @@
                </div>
      </section>
 
+     <section class="testimonial section-padding">
+        <div class="container">
+           <div class="row">
+              <div class="col-lg-6 col-md-5 col-12">
+                <div class="contact-image" data-aos="fade-up">
+                      <img src="images/logo.jpg" class="img-fluid" alt="website">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-7 col-12">
+                <h4 class="my-5-pt-3" data-aos="fade-up" data-aos-delay="100">درباره سایت</h4>
 
+                <div class="quote" data-aos="fade-up" data-aos-delay="200"></div>
 
-   <!-- HERO -->
-     <section class="hero hero-bg d-flex justify-content-center align-items-center">
-               <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center">
-                              <div class="hero-text">
-
-                                   <h3 class="text-white" data-aos="fade-up">گروه دوستان خاص کار خود را از اسفند ماه 1398 آغاز کرد و در خرداد ماه سال 99 اولین بازی رسمی خود را با نام "کووید 19" منتشر کرد. 
-                    دوستان خاص متشکل از یک تیم 4 نفره (علی امامی، مهدی برادر یاوری، کمیل پارسه، محمد امین دژبان) است که در حوزه های برنامه نویسی، بازی سازی، تولید محتوا و ... فعالیت می کند
-</h3>
-
-
+                <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">سلام به سایت آموزشی نمره آزما خوش آمدید. این سایت برای آموزش مجازی و ارزیابی دانش آموزان ساخته شده است</h2>
+                <br/><br/><br/>
+					      <div class="contact-image" data-aos="fade-up">
+                    <img src="images/loding1.png" class="img-fluid" alt="website">
+                    <a name="info"></a>
                               </div>
-                        </div>
+                    <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">گروه دوستان خاص کار خود را از اسفند ماه 1398 آغاز کرد و در خرداد ماه سال 99 اولین بازی رسمی خود را با نام "کووید 19" منتشر کرد. 
+                    دوستان خاص متشکل از یک تیم 4 نفره (علی امامی، مهدی برادر یاوری، کمیل پارسه، محمد امین دژبان) است که در حوزه های برنامه نویسی، بازی سازی، تولید محتوا و ... فعالیت می کند</h2>
 
-                        <div class="col-lg-6 col-12">
-                          <div class="hero-image" data-aos="fade-up" data-aos-delay="300">
-                            <img src="images/doostankhas.png" class="img-fluid" alt="logo">
-                          </div>
-                        </div>
-                    </div>
-               </div>
+                    <p data-aos="fade-up" data-aos-delay="400">
+                      <!--<strong>گروه دوستان خاص</strong>-->
+
+                      <!--<span class="mx-1">/</span>-->
+
+                      <!--<small>Digital Agency (CEO)</small>-->
+                    </p>
+                </div>
+           </div>
+        </div>
      </section>
+
 
 
   <!--footer-->
