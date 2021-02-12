@@ -1,0 +1,323 @@
+/*
+Adding some fonts
+*/
+@font-face{
+	font-family: 'Vazir';
+	src: url('../fonts/Vazir.woff') format('woff'),
+		url('../fonts/Vazir.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Vazir-Light';
+	src: url('../fonts/Vazir-Light.woff') format('woff'),
+		url('../fonts/Vazir-Light.woff2') format('woff2');
+	font-weight: lighter;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Vazir-Medium';
+	src: url('../fonts/Vazir-Medium.woff') format('woff'),
+		url('../fonts/Vazir-Medium.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Vazir-Thin';
+	src: url('../fonts/Vazir-Thin.woff') format('woff'),
+	    url('../fonts/Vazir-Thin.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Vazir-Bold';
+	src: url('../fonts/Vazir-Bold.woff') format('woff'),
+        url('../fonts/Vazir-Bold.woff2') format('woff2');
+	font-weight: bolder;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Plain-Regular';
+	src: url('../fonts/Plain-Regular.woff2') format('woff2'),
+		url('../fonts/Plain-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Plain-Light';
+	src: url('../fonts/Plain-Light.woff2') format('woff2'),
+		url('../fonts/Plain-Light.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Plain-Bold';
+	src: url('../fonts/Plain-Bold.woff2') format('woff2'),
+		url('../fonts/Plain-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+body
+{
+	background-image: url("../images/BG1.png");
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Arial;
+    font-size: 13px;
+}
+label
+{
+   font-size: 16px;
+   padding: 4px 4px 4px 4px;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#Heading1{font-family: 'Vazir-Bold', 'sans-serif', 'Plain-Bold';}
+#Label1
+{
+	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
+	font-size: 15px;
+	padding: 4px 4px 4px 4px;
+}
+#Editbox1
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   font-size: 13px;
+   line-height: 16px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: center;
+}
+#Editbox1:focus
+{
+   border-color: #1E90FF;
+}
+#Editbox2
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   font-size: 13px;
+   line-height: 16px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: center;
+}
+#Editbox2:focus
+{
+   border-color: #66AFE9;
+   outline: 0;
+}
+#Button1
+{
+	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
+	box-sizing: border-box;
+	line-height: 21px;
+	border: 1px solid #FFA500;
+	border-radius: 4px;
+	background-color: #FFA500;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 1px 6px 1px 6px;
+	text-align: center;
+	text-decoration: none;
+}
+#Button2
+{
+	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
+	border: 1px solid #2E6DA4;
+	border-radius: 4px;
+	background-color: #3370B7;
+	color: #FFFFFF;
+	font-size: 16px;
+	padding: 1px 6px 1px 6px;
+	text-align: center;
+}
+#Button3
+{
+	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
+	box-sizing: border-box;
+	line-height: 21px;
+	text-decoration: none;
+	border: 1px solid #32CD32;
+	border-radius: 4px;
+	background-color: #32CD32;
+	color: #FFFFFF;
+	font-size: 10px;
+	padding: 1px 6px 1px 6px;
+	text-align: center;
+}
+.form111
+{
+	position:absolute;
+	left:5px;
+	top:46px;
+	width:283px;
+	height:236px;
+	z-index:7;
+}
+.boxuser
+{
+	position:absolute;
+	left:50px;
+	top:26px;
+	width:203px;
+	height:16px;
+}
+.lab2
+{
+	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
+	position:absolute;
+	left:226px;
+	top:50px;
+	width:29px;
+	height:18px;
+	line-height:18px;
+	z-index:1;
+}
+.boxpass
+{
+	position:absolute;
+	left:50px;
+	top:76px;
+	width:203px;
+	height:16px;
+	z-index:2;
+}
+.lab1
+{
+	position:absolute;
+	left:191px;
+	top:0px;
+	width:64px;
+	height:18px;
+	line-height:18px;
+	z-index:3;
+}
+.sunmitbut
+{
+	position:absolute;
+	left:50px;
+	top:111px;
+	width:213px;
+	height:25px;
+	z-index:4;
+}
+.abut
+{
+	position:absolute;
+	left:120px;
+	top:190px;
+	width:143px;
+	height:25px;
+	z-index:5;
+}
+.abut2
+{
+	position:absolute;
+	left:124px;
+	top:197px;
+	width:143px;
+	height:25px;
+	z-index:8;
+}
+.labem
+{
+	position:absolute;
+	left:220px;
+	top:0px;
+	width:64px;
+	height:18px;
+	line-height:18px;
+	z-index:3;
+}
+.sunmitbutem
+{
+	font-family: 'Vazir-Thin', 'sans-serif', 'Plain-Light';
+	position:absolute;
+	left:50px;
+	top:60px;
+	width:213px;
+	height:25px;
+	z-index:4;
+}
+.sunmitbutsing
+{
+	position:absolute;
+	left:50px;
+	top:210px;
+	width:213px;
+	height:25px;
+	z-index:4;
+}
+.boxpass2
+{
+	position:absolute;
+	left:50px;
+	top:125px;
+	width:203px;
+	height:16px;
+	z-index:2;
+}
+.lab3
+{
+	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
+	position:absolute;
+	left:230px;
+	top:100px;
+	width:64px;
+	height:40px;
+	line-height:18px;
+	z-index:3;
+}
+.abut3
+{
+	position:absolute;
+	left:120px;
+	top:245px;
+	width:143px;
+	height:25px;
+	z-index:5;
+}
+.boxpass3
+{
+	position:absolute;
+	left:50px;
+	top:175px;
+	width:203px;
+	height:16px;
+	z-index:2;
+}
+.lab4
+{
+	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
+	position:absolute;
+	left:195px;
+	top:150px;
+	width:64px;
+	height:40px;
+	line-height:18px;
+	z-index:3;
+}
