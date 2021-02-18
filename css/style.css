@@ -59,6 +59,9 @@ Adding some fonts
 	font-weight: bold;
 	font-style: normal;
 }
+/*
+	End adding fonts
+*/
 body
 {
 	background-image: url("../images/BG1.png");
@@ -66,6 +69,7 @@ body
     color: #000000;
     font-family: Arial;
     font-size: 13px;
+	text-align: center;
 }
 label
 {
@@ -94,7 +98,12 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#Heading1{font-family: 'Vazir-Bold', 'sans-serif', 'Plain-Bold';}
+#Heading1
+{
+	font-family: 'Vazir-Bold', 'sans-serif', 'Plain-Bold';
+	text-align: center;
+	margin-top: 2%;
+}
 #Label1
 {
 	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
@@ -108,8 +117,8 @@ input:focus, textarea:focus, select:focus
    font-size: 13px;
    line-height: 16px;
    padding: 4px 4px 4px 4px;
-   margin: 0;
-   text-align: center;
+   margin: 0 auto;
+   text-align: left;
 }
 #Editbox1:focus
 {
@@ -122,8 +131,8 @@ input:focus, textarea:focus, select:focus
    font-size: 13px;
    line-height: 16px;
    padding: 4px 4px 4px 4px;
-   margin: 0;
-   text-align: center;
+   margin: 0 auto;
+   text-align: left;
 }
 #Editbox2:focus
 {
@@ -142,6 +151,7 @@ input:focus, textarea:focus, select:focus
 	font-size: 15px;
 	padding: 1px 6px 1px 6px;
 	text-align: center;
+	margin-top: 2%;
 	text-decoration: none;
 }
 #Button2
@@ -171,153 +181,174 @@ input:focus, textarea:focus, select:focus
 }
 .form111
 {
-	position:absolute;
+	/*position:absolute;
 	left:5px;
-	top:46px;
-	width:283px;
+	top:46px;*/
+	width:216px;
 	height:236px;
+	display: inline-block;
 	z-index:7;
+	text-align: right;
 }
 .boxuser
 {
-	position:absolute;
+	/*position:absolute;
 	left:50px;
-	top:26px;
+	top:26px;*/
 	width:203px;
 	height:16px;
+	display: inline-block;
 }
 .lab2
 {
 	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
-	position:absolute;
+	/*position:absolute;
 	left:226px;
-	top:50px;
-	width:29px;
+	top:50px;*/
+	width:54px;
 	height:18px;
 	line-height:18px;
 	z-index:1;
+	display: inline-block;
 }
 .boxpass
 {
-	position:absolute;
+	/*position:absolute;
 	left:50px;
-	top:76px;
+	top:76px;*/
 	width:203px;
 	height:16px;
 	z-index:2;
+	display: inline-block;
 }
 .lab1
 {
-	position:absolute;
+	/*position:absolute;
 	left:191px;
-	top:0px;
+	top:0px;*/
 	width:64px;
 	height:18px;
 	line-height:18px;
 	z-index:3;
+	display: inline-block;
 }
 .sunmitbut
 {
-	position:absolute;
+	/*position:absolute;
 	left:50px;
-	top:111px;
+	top:111px;*/
 	width:213px;
 	height:25px;
 	z-index:4;
+	display: inline-block;
+	margin-top: 2%;
 }
 .abut
 {
-	position:absolute;
+	/*position:absolute;
 	left:120px;
-	top:190px;
+	top:190px;*/
 	width:143px;
 	height:25px;
 	z-index:5;
+	display: inline-block;
 }
 .abut2
 {
-	position:absolute;
+	/*position:absolute;
 	left:124px;
-	top:197px;
+	top:197px;*/
 	width:143px;
 	height:25px;
 	z-index:8;
+	display: inline-block;
+	margin-top: 2%;
 }
 .labem
 {
-	position:absolute;
+	/*position:absolute;
 	left:220px;
-	top:0px;
+	top:0px;*/
 	width:64px;
 	height:18px;
 	line-height:18px;
 	z-index:3;
+	display: inline-block;
 }
 .sunmitbutem
 {
 	font-family: 'Vazir-Thin', 'sans-serif', 'Plain-Light';
-	position:absolute;
+	/*position:absolute;
 	left:50px;
-	top:60px;
+	top:60px;*/
 	width:213px;
 	height:25px;
 	z-index:4;
+	margin-top: 2%;
+	display: inline-block;
 }
 .sunmitbutsing
 {
-	position:absolute;
+	/*position:absolute;
 	left:50px;
-	top:210px;
-	width:213px;
-	height:25px;
-	z-index:4;
+	top:210px;*/
+	width: 213px;
+	height: 25px;
+	z-index: 4;
+	margin-top: 10%;
+	display: inline-block;
 }
 .boxpass2
 {
-	position:absolute;
+	/*position:absolute;
 	left:50px;
-	top:125px;
+	top:125px;*/
 	width:203px;
 	height:16px;
 	z-index:2;
+	display: inline-block;
 }
 .lab3
 {
 	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
-	position:absolute;
+	/*position:absolute;
 	left:230px;
-	top:100px;
+	top:100px;*/
 	width:64px;
-	height:40px;
+	height:21px;
 	line-height:18px;
 	z-index:3;
+	display: inline-block;
 }
 .abut3
 {
-	position:absolute;
+	/*position:absolute;
 	left:120px;
-	top:245px;
+	top:245px;*/
 	width:143px;
 	height:25px;
 	z-index:5;
+	display: inline-block;
 }
 .boxpass3
 {
-	position:absolute;
+	/*position:absolute;
 	left:50px;
-	top:175px;
+	top:175px;*/
 	width:203px;
 	height:16px;
 	z-index:2;
+	display: inline-block;
 }
 .lab4
 {
 	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
-	position:absolute;
+	/*position:absolute;
 	left:195px;
-	top:150px;
+	top:150px;*/
 	width:64px;
-	height:40px;
+	height:22px;
 	line-height:18px;
 	z-index:3;
+	display: inline-block;
 }
