@@ -181,9 +181,6 @@ input:focus, textarea:focus, select:focus
 }
 .form111
 {
-	/*position:absolute;
-	left:5px;
-	top:46px;*/
 	width:216px;
 	height:236px;
 	display: inline-block;
@@ -192,9 +189,6 @@ input:focus, textarea:focus, select:focus
 }
 .boxuser
 {
-	/*position:absolute;
-	left:50px;
-	top:26px;*/
 	width:203px;
 	height:16px;
 	display: inline-block;
@@ -202,9 +196,6 @@ input:focus, textarea:focus, select:focus
 .lab2
 {
 	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
-	/*position:absolute;
-	left:226px;
-	top:50px;*/
 	width:54px;
 	height:18px;
 	line-height:18px;
@@ -213,9 +204,6 @@ input:focus, textarea:focus, select:focus
 }
 .boxpass
 {
-	/*position:absolute;
-	left:50px;
-	top:76px;*/
 	width:203px;
 	height:16px;
 	z-index:2;
@@ -223,9 +211,6 @@ input:focus, textarea:focus, select:focus
 }
 .lab1
 {
-	/*position:absolute;
-	left:191px;
-	top:0px;*/
 	width:64px;
 	height:18px;
 	line-height:18px;
@@ -234,9 +219,6 @@ input:focus, textarea:focus, select:focus
 }
 .sunmitbut
 {
-	/*position:absolute;
-	left:50px;
-	top:111px;*/
 	width:213px;
 	height:25px;
 	z-index:4;
@@ -245,9 +227,6 @@ input:focus, textarea:focus, select:focus
 }
 .abut
 {
-	/*position:absolute;
-	left:120px;
-	top:190px;*/
 	width:143px;
 	height:25px;
 	z-index:5;
@@ -255,9 +234,6 @@ input:focus, textarea:focus, select:focus
 }
 .abut2
 {
-	/*position:absolute;
-	left:124px;
-	top:197px;*/
 	width:143px;
 	height:25px;
 	z-index:8;
@@ -266,9 +242,6 @@ input:focus, textarea:focus, select:focus
 }
 .labem
 {
-	/*position:absolute;
-	left:220px;
-	top:0px;*/
 	width:64px;
 	height:18px;
 	line-height:18px;
@@ -278,9 +251,6 @@ input:focus, textarea:focus, select:focus
 .sunmitbutem
 {
 	font-family: 'Vazir-Thin', 'sans-serif', 'Plain-Light';
-	/*position:absolute;
-	left:50px;
-	top:60px;*/
 	width:213px;
 	height:25px;
 	z-index:4;
@@ -289,9 +259,6 @@ input:focus, textarea:focus, select:focus
 }
 .sunmitbutsing
 {
-	/*position:absolute;
-	left:50px;
-	top:210px;*/
 	width: 213px;
 	height: 25px;
 	z-index: 4;
@@ -300,9 +267,6 @@ input:focus, textarea:focus, select:focus
 }
 .boxpass2
 {
-	/*position:absolute;
-	left:50px;
-	top:125px;*/
 	width:203px;
 	height:16px;
 	z-index:2;
@@ -311,9 +275,6 @@ input:focus, textarea:focus, select:focus
 .lab3
 {
 	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
-	/*position:absolute;
-	left:230px;
-	top:100px;*/
 	width:64px;
 	height:21px;
 	line-height:18px;
@@ -322,9 +283,6 @@ input:focus, textarea:focus, select:focus
 }
 .abut3
 {
-	/*position:absolute;
-	left:120px;
-	top:245px;*/
 	width:143px;
 	height:25px;
 	z-index:5;
@@ -332,9 +290,6 @@ input:focus, textarea:focus, select:focus
 }
 .boxpass3
 {
-	/*position:absolute;
-	left:50px;
-	top:175px;*/
 	width:203px;
 	height:16px;
 	z-index:2;
@@ -343,9 +298,6 @@ input:focus, textarea:focus, select:focus
 .lab4
 {
 	font-family: 'Vazir-Medium', 'sans-serif', 'Plain-Regular';
-	/*position:absolute;
-	left:195px;
-	top:150px;*/
 	width:64px;
 	height:22px;
 	line-height:18px;
